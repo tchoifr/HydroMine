@@ -1,25 +1,51 @@
 <template>
-  <section class="contact" id="contact">
-    <h2>Contactez-nous</h2>
-    <form @submit.prevent="submitForm">
-      <input type="text" v-model="form.name" placeholder="Nom" required />
-      <input type="email" v-model="form.email" placeholder="Email" required />
-      <textarea v-model="form.message" placeholder="Votre message" required></textarea>
-      <button type="submit">Envoyer</button>
-    </form>
-    <p v-if="formSubmitted" class="success">Merci ! Votre message a été envoyé.</p>
+  <section class="Form" id="Form">
+    <div class="Form-content">
+      <h2>Contactez-nous 💬</h2>
+      <form @submit.prevent="submitForm">
+        <div class="form-group">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" v-model="form.name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" v-model="form.email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Sujet</label>
+          <input type="text" id="subject" v-model="form.subject" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" v-model="form.message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-login">Envoyer</button>
+      </form>
+    </div>
   </section>
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { reactive } from "vue";
 
-const form = ref({ name: "", email: "", message: "" });
-const formSubmitted = ref(false);
+const form = reactive({
+  name: "",
+  email: "",
+  subject: "",
+  message: ""
+});
 
 function submitForm() {
-  console.log("Form submitted:", form.value);
-  formSubmitted.value = true;
-  form.value = { name: "", email: "", message: "" };
+  console.log("Formulaire envoyé :", form);
+  alert("Merci pour votre message, nous vous répondrons bientôt !");
+  form.name = "";
+  form.email = "";
+  form.subject = "";
+  form.message = "";
 }
 </script>
+

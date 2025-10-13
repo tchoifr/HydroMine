@@ -81,6 +81,7 @@ body {
   font-weight: bold;
   transition: transform 0.3s, box-shadow 0.3s;
   overflow: hidden;
+  padding: 15px;
 }
 
 /* Pseudo-élément uniquement pour la bordure animée */
@@ -161,6 +162,7 @@ body {
   position: relative;
   border: 3px solid transparent; /* bordure initiale invisible */
   transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s, background-color 0.3s;
+  background-color: black;
 }
 
 .card:hover {
@@ -172,8 +174,8 @@ body {
 .card:hover { transform: translateY(-6px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
 .card img { width: 100%; height: 300px; object-fit: cover; margin-bottom: 1rem; border-radius: 20px 20px 0px 0px; }
 .card h3 { color: #00c6ff; font-size: 1.3rem; margin-bottom: 0.5rem; }
-.card .description { font-size: 0.95rem; color: #555; margin-bottom: 1rem; padding: 10px; }
-.card .price { font-weight: bold; color: #555; }
+.card .description { font-size: 0.95rem; color: white; margin-bottom: 1rem; padding: 10px; }
+.card .price { font-weight: bold; color: white; }
 /* ----- ENGAGEMENT ----- */
 .engagement {
   background-image: url(/public/assets/banniere.jpg);
@@ -204,29 +206,59 @@ body {
   backdrop-filter: blur(15px);
 }
 
-/* ----- GPU ----- */
-.gpu { padding: 3rem 1rem; text-align: center; background: #282a2c; }
-.gpu h2 { font-size: 2rem; margin-bottom: 1rem; color: #42faff; }
-.gpu p { font-size: 1rem; color: #555; margin-bottom: 2rem; }
-.gpu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; }
-.gpu-card {
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-.gpu-card:hover { transform: translateY(-6px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
-.gpu-card img { width: 100%; height: 300px; object-fit: cover; margin-bottom: 1rem; border-radius: 20px 20px 0px 0px; }
-.gpu-card h3 { color: #00c6ff; font-size: 1.3rem; margin-bottom: 0.5rem; }
-.gpu-desc { font-size: 0.95rem; color: #555; margin-bottom: 0.5rem; padding: 5px; }
-.gpu-power { font-weight: bold; color: #42faff; }
+
 
 /* ----- CONTACT ----- */
-.contact { padding: 3rem 1rem; text-align: center; }
-.contact h2 { font-size: 2rem; margin-bottom: 1rem; color: #42faff; }
-.contact form { display: flex; flex-direction: column; gap: 1rem; max-width: 400px; margin: 0 auto; }
-.contact input, .contact textarea { padding: 0.8rem; border-radius: 10px; border: 1px solid #ccc; }
-.contact button { padding: 0.8rem 1.5rem; border-radius: 30px; border: none; background: #42faff; color: white; cursor: pointer; font-weight: bold; }
-.contact button:hover { background: #005bbb; }
-.success { color: #0a8f43; margin-top: 1rem; }
 
+.Form {
+  background-image: url(/public/assets/banniereForm.png);
+  background-repeat: no-repeat;     
+  background-size: cover;            
+  background-attachment: fixed;
+  background-position: center;
+  padding: 50px;
+}
+
+.Form h2 {
+  margin-bottom: 1rem; 
+  font-size: 2rem; 
+}
+
+.Form p {
+  font-size: 1.05rem; 
+  line-height: 1.6; 
+}
+
+.Form-content {
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  border-radius: 20px;
+  margin: 3rem auto;
+  max-width: 800px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 2rem auto 0 auto;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  background: white;
+}

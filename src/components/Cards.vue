@@ -1,5 +1,5 @@
 <template>
-  <section class="cards" id="cards">
+  <section class="cards" id="offre">
     <h2>Nos Offres de Minage</h2>
     <div class="cards-grid">
       <div v-for="card in cards" :key="card.name" class="card">
