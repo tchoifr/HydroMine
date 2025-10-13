@@ -176,7 +176,7 @@ body {
 .card .price { font-weight: bold; color: #555; }
 /* ----- ENGAGEMENT ----- */
 .engagement {
-  background-image: url(./assets/banniere.jpg);
+  background-image: url(/public/assets/banniere.jpg);
   background-repeat: no-repeat;     
   background-size: cover;            
   background-attachment: fixed;
