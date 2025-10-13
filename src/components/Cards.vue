@@ -1,6 +1,6 @@
 <template>
   <section class="cards" id="cards">
-    <h2>Nos cartes virtuelles</h2>
+    <h2>Nos Offres de Minage</h2>
     <div class="cards-grid">
       <div v-for="card in cards" :key="card.name" class="card">
         <img :src="card.image" :alt="card.name" />

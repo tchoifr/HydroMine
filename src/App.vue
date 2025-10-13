@@ -51,7 +51,7 @@ const cards = [
     price: 500,
   },
   {
-    name: "Offre Ultime",
+    name: "Offre Ultimate",
     image: titane,
     description:
       "L’offre ultime pour investisseurs ambitieux. Rendement estimé : 25%/mois, durée optimale : 12+ mois, performance maximale, assistance VIP et suivi personnalisé. Cette offre utilise la carte graphique NVIDIA RTX 4090.",
