@@ -1,7 +1,7 @@
 <template>
   <section class="cards" id="gpu">
     <h2>Nos cartes graphiques premium</h2>
-    <p style="margin-bottom: 40px;">
+    <p style="margin-bottom: 40px; color: white;">
       Nous utilisons les meilleures cartes graphiques du moment pour garantir un
       minage performant et éco-responsable.
     </p>
