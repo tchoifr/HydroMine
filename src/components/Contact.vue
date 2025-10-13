@@ -1,5 +1,5 @@
 <template>
-  <section class="Form" id="Form">
+  <section class="Form" id="contact">
     <div class="Form-content">
       <h2>Contactez-nous 💬</h2>
       <form @submit.prevent="submitForm">
