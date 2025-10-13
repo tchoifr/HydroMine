@@ -7,7 +7,7 @@
     </div>
 
     <div class="footer-center">
-      <img src="../assets/logo.png" alt="HydroMine Québec" class="footer-logo" />
+      <img src="/public/assets/logo.png" alt="HydroMine Québec" class="footer-logo" />
       <h2>HydroMine Québec</h2>
       <p>Minage durable et rentable, alimenté à 100% par l’hydroélectricité du Québec</p>
       <p class="copyright">© 2025 HydroMine Québec — Tous droits réservés</p>

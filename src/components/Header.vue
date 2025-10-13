@@ -1,12 +1,12 @@
 <template>
   <header class="header">
     <video autoplay muted loop class="header-video">
-      <source src="../assets/header.mp4" type="video/mp4" />
+      <source src="/public/assets/header.mp4" type="video/mp4" />
       Votre navigateur ne supporte pas la vidéo.
     </video>
 
     <div class="nav">
-      <div style="width: 130px; height: 85px;" class="logo"><img style="width: 100%; height: 100%; object-fit: cover;" src="../assets/logo.png" alt=""></div>
+      <div style="width: 130px; height: 85px;" class="logo"><img style="width: 100%; height: 100%; object-fit: cover;" src="/public/assets/logo.png" alt=""></div>
       <nav>
         <a href="#cards">Cartes</a>
         <a href="#engagement">Engagement</a>
