@@ -9,13 +9,13 @@
 
     <!-- Centre -->
     <div class="footer-center">
-      <img src="/public/assets/logoPanda.png" alt="Panda Palmonia" class="footer-logo" />
-      <h2>Panda Palmonia</h2>
+      <img src="/public/assets/logoPanda.png" alt="Panda paulownia" class="footer-logo" />
+      <h2>Panda paulownia</h2>
       <p>
         Investis en nature et en innovation 🌿<br />
         Minage durable, alimenté par la blockchain et la crypto.
       </p>
-      <p class="copyright">© 2025 Panda Palmonia — Tous droits réservés</p>
+      <p class="copyright">© 2025 Panda paulownia — Tous droits réservés</p>
     </div>
 
     <!-- Liens de droite -->
