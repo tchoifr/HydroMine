@@ -55,14 +55,14 @@ body {
   bottom: -3px;
   width: 0%;
   height: 2px;
-  background: #42faff;
-  box-shadow: 0 0 10px #42faff;
+  background: #59ffac;
+  box-shadow: 0 0 10px #59ffac;
   transition: width 0.4s ease;
 }
 
 /* Effet au hover */
 .nav a:hover {
-  color: #42faff;
+  color: #59ffac;
 }
 
 .nav a:hover::after {
@@ -73,7 +73,7 @@ body {
   position: relative;
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(15px);
-  color: #42faff;
+  color: #59ffac;
   border: 2px solid transparent;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
@@ -90,7 +90,7 @@ body {
   position: absolute;
   inset: 0;
   border-radius: 25px;
-  border: 2px solid #42faff;
+  border: 2px solid #59ffac;
   opacity: 0;
   transform: scale(1.1);
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -113,7 +113,7 @@ body {
   position: relative;
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(15px);
-  color: #42faff;
+  color: #59ffac;
   padding: 0.8rem 2rem;
   border-radius: 30px;
   font-weight: bold;
@@ -129,7 +129,7 @@ body {
   position: absolute;
   inset: 0;
   border-radius: 30px;
-  border: 2px solid #42faff;
+  border: 2px solid #59ffac;
   opacity: 0;
   transform: scale(1.1);
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -148,7 +148,7 @@ body {
 
 /* ----- CARTES ----- */
 .cards { padding: 3rem 1rem; text-align: center; background: #282a2c; }
-.cards h2 { font-size: 2rem; margin-bottom: 2rem; color: #42faff; }
+.cards h2 { font-size: 2rem; margin-bottom: 2rem; color: #59ffac; }
 .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; }
 .card {
   position: relative;
@@ -168,17 +168,17 @@ body {
 .card:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-  border-color: #42faff;
+  border-color: #59ffac;
 }
 
 .card:hover { transform: translateY(-6px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
 .card img { width: 100%; height: 300px; object-fit: cover; margin-bottom: 1rem; border-radius: 20px 20px 0px 0px; }
-.card h3 { color: #00c6ff; font-size: 1.3rem; margin-bottom: 0.5rem; }
+.card h3 { color: #59ffac; font-size: 1.3rem; margin-bottom: 0.5rem; }
 .card .description { font-size: 0.95rem; color: white; margin-bottom: 1rem; padding: 10px; }
 .card .price { font-weight: bold; color: white; }
 /* ----- ENGAGEMENT ----- */
 .engagement {
-  background-image: url(/public/assets/banniere.jpg);
+  background-image: url(/public/assets/bannierePanda.jpg);
   background-repeat: no-repeat;     
   background-size: cover;            
   background-attachment: fixed;
@@ -211,7 +211,7 @@ body {
 /* ----- CONTACT ----- */
 
 .Form {
-  background-image: url(/public/assets/banniereForm.png);
+  background-image: url(/public/assets/bannierePanda2.jpg);
   background-repeat: no-repeat;     
   background-size: cover;            
   background-attachment: fixed;

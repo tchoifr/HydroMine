@@ -8,11 +8,10 @@ import Footer from './components/Footer.vue';
 import '../src/style.css';
 
 // 🖼️ Import des images depuis src/assets
-import bronze from '/public/assets/bronze.png';
-import fer from '/public/assets/fer.png';
-import gold from '/public/assets/gold.png';
-import platine from '/public/assets/platine.png';
-import titane from '/public/assets/titane.png';
+import panda1 from '/public/assets/panda1an.jpg';
+import panda2 from '/public/assets/panda2ans.jpg';
+import panda3 from '/public/assets/panda3ans.jpg';
+
 
 import NVIDIARTX3060Ti from '/public/assets/NVIDIARTX3060Ti.webp';
 import AMDRadeonRX6700XT from '/public/assets/AMDRadeonRX6700XT.jpg';
@@ -23,84 +22,72 @@ import NVIDIARTX4090 from '/public/assets/NVIDIARTX4090.webp';
 // 💰 Tes données avec les imports d’images
 const cards = [
   {
-    name: "Offre Éco-Lite",
-    image: bronze,
+    name: "Pack Palmonia 1 an",
+    image: panda1,
     description:
-      "Idéale pour débuter le minage durablement. Rendement estimé : 15%/mois, durée optimale : 1 mois, faible consommation d'énergie. Cette offre utilise la carte graphique NVIDIA RTX 3060 Ti, la moins puissante des 5.",
-    price: 50,
+      "Fais pousser ton premier Palmonia 🌱 Ce pack te permet de participer à la culture d’un arbre Palmonia pendant 1 an. À la revente de ton arbre, tu reçois une rente crypto estimée à environ 300 €. Un moyen simple et vert de faire fructifier ton investissement tout en soutenant un projet durable.",
+    price: 150,
   },
   {
-    name: "Offre Hydro-Pro",
-    image: fer,
+    name: "Pack Palmonia 2 ans",
+    image: panda2,
     description:
-      "Puissance doublée pour un rendement optimal. Rendement estimé : 18%/mois, durée optimale : 1-3 mois, consommation modérée. Cette offre utilise la carte graphique AMD Radeon RX 6700 XT.",
-    price: 100,
+      "Fais grandir ta forêt 🌿 Avec le pack 2 ans, ton Palmonia se développe davantage et génère une rente crypto estimée à environ 750 € lors de la revente. Une option parfaite pour ceux qui veulent un rendement plus stable sur le long terme tout en participant à la croissance de l’écosystème Palmonia.",
+    price: 280,
   },
   {
-    name: "Offre Green-Titan",
-    image: gold,
+    name: "Pack Palmonia 3 ans",
+    image: panda3,
     description:
-      "Pour les investisseurs sérieux. Rendement estimé : 20%/mois, durée optimale : 3-6 mois, consommation élevée, performance maximale. Cette offre utilise la carte graphique NVIDIA RTX 4070 Ti.",
-    price: 250,
-  },
-  {
-    name: "Offre Platinum",
-    image: platine,
-    description:
-      "Carte premium pour rentabilité maximale. Rendement estimé : 22%/mois, durée optimale : 6-12 mois, puissance élevée, support dédié. Cette offre utilise la carte graphique AMD Radeon RX 7900 XT.",
-    price: 500,
-  },
-  {
-    name: "Offre Ultimate",
-    image: titane,
-    description:
-      "L’offre ultime pour investisseurs ambitieux. Rendement estimé : 25%/mois, durée optimale : 12+ mois, performance maximale, assistance VIP et suivi personnalisé. Cette offre utilise la carte graphique NVIDIA RTX 4090.",
-    price: 1000,
+      "Deviens gardien d’un Palmonia florissant 🌸 En choisissant le pack 3 ans, tu profites de la pleine maturité de ton arbre. À la revente, la rente crypto estimée atteint environ 1 200 €. Un investissement durable, symbolique et rémunérateur pour les amoureux de nature et de technologie.",
+    price: 400,
   },
 ];
 
+
 const gpus = [
   {
-    name: "NVIDIA RTX 3060 Ti",
-    image: NVIDIARTX3060Ti,
+    name: "Staking flexible",
+    image: "/public/assets/1.png",
     description:
-      "La NVIDIA RTX 3060 Ti est parfaite pour débuter le minage de façon durable. Faible consommation et rendement stable vous permettent de générer vos premiers gains avec sérénité.",
-    hashrate: 60,
-    badge: "Bronze",
+      "Profite d’un staking souple : retire ou ajoute tes PALMONIA à tout moment. Tes tokens continuent de générer des rendements même pendant les périodes de repos du réseau.",
+    apr: "8 à 12% / an",
+    badge: "Souplesse",
   },
   {
-    name: "AMD Radeon RX 6700 XT",
-    image: AMDRadeonRX6700XT,
+    name: "Staking bloqué",
+    image: "/public/assets/2.png",
     description:
-      "La AMD Radeon RX 6700 XT offre une puissance doublée pour un rendement optimal. Idéale pour les mineurs qui veulent passer à la vitesse supérieure tout en maîtrisant la consommation.",
-    hashrate: 85,
-    badge: "Fer",
+      "Verrouille tes PALMONIA pour 3, 6 ou 12 mois et bénéficie de taux bonifiés. Plus tu t’engages, plus ton rendement augmente.",
+    apr: "jusqu’à 18% / an",
+    badge: "Performance",
   },
   {
-    name: "NVIDIA RTX 4070 Ti",
-    image: NVIDIARTX4070Ti,
+    name: "Staking communautaire",
+    image: "/public/assets/3.png",
     description:
-      "La NVIDIA RTX 4070 Ti est conçue pour les investisseurs sérieux. Performance élevée et stabilité maximale pour un rendement fiable sur le long terme.",
-    hashrate: 100,
-    badge: "Gold",
+      "Participe au staking collectif : chaque membre renforce la pool PALMONIA. Ensemble, nous multiplions la valeur et la stabilité du réseau.",
+    apr: "variable selon la pool",
+    badge: "Communauté",
   },
   {
-    name: "AMD Radeon RX 7900 XT",
-    image: AMDRadeonRX7900XT,
+    name: "Revenus réinvestis",
+    image: "/public/assets/4.png",
     description:
-      "La AMD Radeon RX 7900 XT est une carte premium, offrant une rentabilité maximale et une puissance exceptionnelle. Idéale pour les mineurs ambitieux cherchant performance et endurance.",
-    hashrate: 120,
-    badge: "Platine",
+      "100% du chiffre d’affaires est réinjecté dans notre crypto PALMONIA. Aucun dividende externe — toute la valeur circule dans l’écosystème.",
+    impact: "Croissance organique & durable",
+    badge: "Transparence",
   },
   {
-    name: "NVIDIA RTX 4090",
-    image: NVIDIARTX4090,
+    name: "Nos NFT Palmonia",
+    image: "/public/assets/5.png",
     description:
-      "La NVIDIA RTX 4090 représente l’ultime choix pour les investisseurs exigeants. Performance inégalée, support VIP et suivi personnalisé pour maximiser vos profits.",
-    hashrate: 130,
-    badge: "Supreme",
+      "Chaque NFT Palmonia représente un arbre vivant sur la blockchain 🌿. Il génère une rente en crypto et évolue au fil du temps.",
+    type: "NFT utilitaires & évolutifs",
+    badge: "Éco-collection",
   },
 ];
+
 </script>
 
 

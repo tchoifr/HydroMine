@@ -1,21 +1,26 @@
 <template>
   <footer class="footer">
+    <!-- Liens de gauche -->
     <div class="footer-links left">
-      <a href="#about">À propos</a>
-      <a href="#solutions">Solutions</a>
-      <a href="#durabilite">Durabilité</a>
+      <a href="#offre">Nos offres</a>
+      <a href="#engagement">Engagement</a>
+      <a href="#gpu">Ecosystème</a>
     </div>
 
+    <!-- Centre -->
     <div class="footer-center">
-      <img src="/public/assets/logo.png" alt="HydroMine Québec" class="footer-logo" />
-      <h2>HydroMine Québec</h2>
-      <p>Minage durable et rentable, alimenté à 100% par l’hydroélectricité du Québec</p>
-      <p class="copyright">© 2025 HydroMine Québec — Tous droits réservés</p>
+      <img src="/public/assets/logoPanda.png" alt="Panda Palmonia" class="footer-logo" />
+      <h2>Panda Palmonia</h2>
+      <p>
+        Investis en nature et en innovation 🌿<br />
+        Minage durable, alimenté par la blockchain et la crypto.
+      </p>
+      <p class="copyright">© 2025 Panda Palmonia — Tous droits réservés</p>
     </div>
 
+    <!-- Liens de droite -->
     <div class="footer-links right">
       <a href="#contact">Contact</a>
-      <a href="#carriere">Carrières</a>
       <a href="#mentions">Mentions légales</a>
     </div>
   </footer>
@@ -26,7 +31,7 @@
 
 <style scoped>
 .footer {
-  background-color: #282a2c;
+  background-color: #1a1a1d;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -35,6 +40,7 @@
   padding: 3rem 5%;
   flex-wrap: wrap;
   position: relative;
+  border-top: 2px solid #b173ff;
 }
 
 /* ----- CENTRE ----- */
@@ -46,16 +52,17 @@
 }
 
 .footer-logo {
-  width: 220px;
+  width: 160px;
   height: auto;
   margin-bottom: 1rem;
-  filter: drop-shadow(0 0 6px #42faff);
+  filter: drop-shadow(0 0 6px #b173ff);
 }
 
 .footer h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: #42faff;
+  color: #b173ff;
+  font-weight: 700;
 }
 
 .footer p {
@@ -79,8 +86,8 @@
 }
 
 .footer-links a:hover {
-  color: #42faff;
-  text-shadow: 0 0 8px #42faff;
+  color: #b173ff;
+  text-shadow: 0 0 8px #b173ff;
 }
 
 /* ----- COPYRIGHT ----- */
