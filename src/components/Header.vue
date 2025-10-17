@@ -16,9 +16,9 @@
     </div>
 
  <div class="header-content">
-  <h1 style="color: #b173ff;">Panda Palmonia</h1>
+  <h1 style="color: #b173ff;">Panda paulownia</h1>
   <p>
-    Investis en nature et en innovation : paye en crypto pour faire pousser ton <strong>Palmonia</strong>, <br>  
+    Investis en nature et en innovation : paye en crypto pour faire pousser ton <strong>paulownia</strong>, <br>  
     un arbre unique qui te génère une <strong>rente à chaque vente</strong>.  
     Durable. Rentable. Alimenté par la blockchain.
   </p>

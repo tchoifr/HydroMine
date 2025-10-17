@@ -2,7 +2,7 @@
   <section class="cards" id="gpu">
 <h2>Notre écosystème crypto durable 🌿</h2>
 <p style="margin-bottom: 40px; color: white;">
-  Découvrez comment <strong>Panda Palmonia</strong> unit la nature et la blockchain à travers un système éthique et transparent :  
+  Découvrez comment <strong>Panda paulownia</strong> unit la nature et la blockchain à travers un système éthique et transparent :  
   staking intelligent, réinvestissement total des revenus et NFT vivants connectés à la croissance verte.
 </p>
 
