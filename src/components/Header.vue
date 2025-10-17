@@ -22,7 +22,7 @@
     un arbre unique qui te génère une <strong>rente à chaque vente</strong>.  
     Durable. Rentable. Alimenté par la blockchain.
   </p>
-  <a href="#offre" class="cta-btn">Découvrir nos packs</a>
+  <a style="font-size: xx-large;" href="https://coinmarketcap.com/" class="cta-btn">Accédez à notre crypto PPA 💎</a>
 </div>
 
   </header>

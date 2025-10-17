@@ -8,9 +8,9 @@ import Footer from './components/Footer.vue';
 import '../src/style.css';
 
 // 🖼️ Import des images depuis src/assets
-import panda1 from '/public/assets/panda1an.jpg';
-import panda2 from '/public/assets/panda2ans.jpg';
-import panda3 from '/public/assets/panda3ans.jpg';
+import panda1 from '/public/assets/1an.png';
+import panda2 from '/public/assets/2ans.png';
+import panda3 from '/public/assets/3ans.png';
 
 
 import NVIDIARTX3060Ti from '/public/assets/NVIDIARTX3060Ti.webp';
@@ -97,7 +97,7 @@ const gpus = [
     <Cards :cards="cards" />
     <Engagement />
     <GPU :gpus="gpus" />
-    <Contact />
+    <!-- <Contact /> -->
     <Footer />
   </div>
 </template>
