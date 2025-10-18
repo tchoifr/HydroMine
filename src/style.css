@@ -262,3 +262,19 @@ form {
   outline: none;
   background: white;
 }
+
+
+   @media (max-width: 480px) {
+     
+      h1{
+         font-size: 25px !important;
+     }
+     h3{
+         font-size: 20px !important;
+     }
+  a{
+             font-size: 20px !important;
+
+  }
+  
+   }

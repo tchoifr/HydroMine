@@ -108,6 +108,7 @@
   .footer-links {
     flex-direction: row;
     justify-content: center;
+    flex-direction: column;
     gap: 1.5rem;
     margin-top: 2rem;
   }
@@ -123,6 +124,8 @@
   .footer-center {
     order: 1;
     margin-bottom: 1rem;
+    max-width: 265px;
   }
+
 }
 </style>
