@@ -1,20 +1,21 @@
 <template>
   <section class="engagement" id="engagement">
-    <div class="engagement-content">
-      <h2>Un écosystème durable et transparent 🌿</h2>
-      <p>
-        Chez <strong>Panda paulownia</strong>, chaque action compte.  
-        Nos tokens <strong>paulownia</strong> évoluent dans un écosystème où la nature et la blockchain s’unissent pour créer de la valeur réelle.  
-        <br><br>
-        Grâce à notre système de <strong>staking</strong>, tu peux faire fructifier tes paulownia de manière flexible, bloquée ou communautaire selon ton profil d’investisseur.  
-        <br><br>
-        <strong>100 % du chiffre d’affaires</strong> est réinjecté dans notre crypto pour renforcer la croissance du réseau et garantir une économie circulaire et transparente.  
-        <br><br>
-        Enfin, nos <strong>NFT paulownia</strong> représentent des arbres vivants connectés à la blockchain, générant une rente crypto à chaque transaction.  
-        Ensemble, cultivons une richesse verte, durable et décentralisée. 🐼💜
-      </p>
-    </div>
-  </section>
+  <div class="engagement-content">
+    <h2>A Sustainable and Transparent Ecosystem 🌿</h2>
+    <p>
+      At <strong>Panda Paulownia</strong>, every action matters.  
+      Our <strong>Paulownia tokens</strong> evolve within an ecosystem where nature and blockchain unite to create real value.  
+      <br><br>
+      Through our <strong>staking system</strong>, you can grow your Paulownia holdings in a flexible, locked, or community-based way, depending on your investor profile.  
+      <br><br>
+      <strong>100% of our revenue</strong> is reinvested into our crypto to strengthen the network’s growth and ensure a transparent, circular economy.  
+      <br><br>
+      Finally, our <strong>Paulownia NFTs</strong> represent living trees connected to the blockchain, generating crypto income with every transaction.  
+      Together, let’s cultivate green, sustainable, and decentralized wealth. 🐼💜
+    </p>
+  </div>
+</section>
+
 </template>
 
 

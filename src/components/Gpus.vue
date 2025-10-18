@@ -1,11 +1,10 @@
 <template>
-  <section class="cards" id="gpu">
-<h2>Notre écosystème crypto durable 🌿</h2>
-<p style="margin-bottom: 40px; color: white;">
-  Découvrez comment <strong>Panda paulownia</strong> unit la nature et la blockchain à travers un système éthique et transparent :  
-  staking intelligent, réinvestissement total des revenus et NFT vivants connectés à la croissance verte.
-</p>
-
+<section class="cards" id="gpu">
+  <h2>Our Sustainable Crypto Ecosystem 🌿</h2>
+  <p style="margin-bottom: 40px; color: white;">
+    Discover how <strong>Panda Paulownia</strong> unites nature and blockchain through an ethical and transparent system:  
+    smart staking, full revenue reinvestment, and living NFTs connected to green growth.
+  </p>
     <div class="cards-grid">
       <div v-for="gpu in gpus" :key="gpu.name" class="card">
         <img :src="gpu.image" :alt="gpu.name" />

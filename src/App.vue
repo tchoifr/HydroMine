@@ -3,93 +3,83 @@ import Header from './components/Header.vue';
 import Cards from './components/Cards.vue';
 import Engagement from './components/Engagement.vue';
 import GPU from './components/Gpus.vue';
-import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
 import '../src/style.css';
 
-// 🖼️ Import des images depuis src/assets
-import panda1 from '/public/assets/1.png';
-import panda2 from '/public/assets/2.png';
-import panda3 from '/public/assets/3.png';
+// 🖼️ Import images from src/assets
+import panda1 from '/public/assets/1an.png';
+import panda2 from '/public/assets/2ans.png';
+import panda3 from '/public/assets/3ans.png';
 
-
-import NVIDIARTX3060Ti from '/public/assets/NVIDIARTX3060Ti.webp';
-import AMDRadeonRX6700XT from '/public/assets/AMDRadeonRX6700XT.jpg';
-import NVIDIARTX4070Ti from '/public/assets/NVIDIARTX4070Ti.jpg';
-import AMDRadeonRX7900XT from '/public/assets/AMDRadeonRX7900XT.png';
-import NVIDIARTX4090 from '/public/assets/NVIDIARTX4090.webp';
-
-// 💰 Tes données avec les imports d’images
+// 💰 Cards data with images
 const cards = [
   {
-    name: "Pack Palmonia 1 an",
+    name: "Paulownia Pack - 1 Year",
     image: panda1,
     description:
-      "Fais pousser ton premier Palmonia 🌱 Ce pack te permet de participer à la culture d’un arbre Palmonia pendant 1 an. À la revente de ton arbre, tu reçois une rente crypto estimée à environ 300 €. Un moyen simple et vert de faire fructifier ton investissement tout en soutenant un projet durable.",
+      "Grow your first Paulownia 🌱 This pack allows you to take part in the cultivation of a Paulownia tree for one year. When your tree is resold, you’ll receive an estimated crypto income of around €300. A simple and eco-friendly way to make your investment grow while supporting a sustainable project.",
     price: 150,
   },
   {
-    name: "Pack Palmonia 2 ans",
+    name: "Paulownia Pack - 2 Years",
     image: panda2,
     description:
-      "Fais grandir ta forêt 🌿 Avec le pack 2 ans, ton Palmonia se développe davantage et génère une rente crypto estimée à environ 750 € lors de la revente. Une option parfaite pour ceux qui veulent un rendement plus stable sur le long terme tout en participant à la croissance de l’écosystème Palmonia.",
+      "Grow your forest 🌿 With the 2-year pack, your Paulownia grows stronger and generates an estimated crypto income of around €750 upon resale. The perfect option for those seeking a more stable, long-term return while contributing to the growth of the Paulownia ecosystem.",
     price: 280,
   },
   {
-    name: "Pack Palmonia 3 ans",
+    name: "Paulownia Pack - 3 Years",
     image: panda3,
     description:
-      "Deviens gardien d’un Palmonia florissant 🌸 En choisissant le pack 3 ans, tu profites de la pleine maturité de ton arbre. À la revente, la rente crypto estimée atteint environ 1 200 €. Un investissement durable, symbolique et rémunérateur pour les amoureux de nature et de technologie.",
+      "Become a guardian of a flourishing Paulownia 🌸 By choosing the 3-year pack, you enjoy your tree’s full maturity. Upon resale, the estimated crypto income reaches around €1,200. A sustainable, symbolic, and rewarding investment for lovers of nature and technology alike.",
     price: 400,
   },
 ];
 
-
+// ⚙️ GPU / ecosystem data
 const gpus = [
   {
-    name: "Staking flexible",
+    name: "Flexible Staking",
     image: "/public/assets/1.png",
     description:
-      "Profite d’un staking souple : retire ou ajoute tes PALMONIA à tout moment. Tes tokens continuent de générer des rendements même pendant les périodes de repos du réseau.",
-    apr: "8 à 12% / an",
-    badge: "Souplesse",
+      "Enjoy flexible staking — deposit or withdraw your Paulownia tokens anytime. Your assets continue generating rewards even during network rest periods.",
+    apr: "8 to 12% / year",
+    badge: "Flexibility",
   },
   {
-    name: "Staking bloqué",
+    name: "Locked Staking",
     image: "/public/assets/2.png",
     description:
-      "Verrouille tes PALMONIA pour 1, 2 ou 3 ans et bénéficie de taux bonifiés. Plus tu t’engages, plus ton rendement augmente.",
-    apr: "jusqu’à 18% / an",
+      "Lock your Paulownia tokens for 1, 2, or 3 years and benefit from boosted rates. The longer your commitment, the higher your returns.",
+    apr: "up to 18% / year",
     badge: "Performance",
   },
   {
-    name: "Staking communautaire",
+    name: "Community Staking",
     image: "/public/assets/3.png",
     description:
-      "Participe au staking collectif : chaque membre renforce la pool PALMONIA. Ensemble, nous multiplions la valeur et la stabilité du réseau.",
-    apr: "variable selon la pool",
-    badge: "Communauté",
+      "Join collective staking — every member strengthens the Paulownia pool. Together, we multiply the network’s value and stability.",
+    apr: "varies by pool",
+    badge: "Community",
   },
   {
-    name: "Revenus réinvestis",
+    name: "Reinvested Revenues",
     image: "/public/assets/4.png",
     description:
-      "100% du chiffre d’affaires est réinjecté dans notre crypto PALMONIA. Aucun dividende externe — toute la valeur circule dans l’écosystème.",
-    impact: "Croissance organique & durable",
-    badge: "Transparence",
+      "100% of our revenue is reinvested into the Paulownia crypto. No external dividends — all value stays within the ecosystem.",
+    impact: "Organic & sustainable growth",
+    badge: "Transparency",
   },
   {
-    name: "Nos NFT Palmonia",
+    name: "Our Paulownia NFTs",
     image: "/public/assets/5.png",
     description:
-      "Chaque NFT Palmonia représente un arbre vivant sur la blockchain 🌿. Il génère une rente en crypto et évolue au fil du temps.",
-    type: "NFT utilitaires & évolutifs",
-    badge: "Éco-collection",
+      "Each Paulownia NFT represents a living tree on the blockchain 🌿. It generates crypto income and evolves over time.",
+    type: "Utility & evolving NFTs",
+    badge: "Eco-Collection",
   },
 ];
-
 </script>
-
 
 <template>
   <div class="page">
@@ -97,7 +87,6 @@ const gpus = [
     <Cards :cards="cards" />
     <Engagement />
     <GPU :gpus="gpus" />
-    <!-- <Contact /> -->
     <Footer />
   </div>
 </template>

@@ -2,7 +2,7 @@
   <header class="header">
     <video autoplay muted loop class="header-video">
       <source src="/assets/header.mp4" type="video/mp4" />
-      Votre navigateur ne supporte pas la vidéo.
+      Your browser does not support video playback.
     </video>
 
     <div class="nav">
@@ -10,15 +10,15 @@
         <img src="/assets/logoPanda.png" alt="Panda Paulownia" />
       </div>
 
-      <!-- Liens desktop -->
+      <!-- Desktop links -->
       <nav class="nav-links">
-        <a href="#offre">Nos offres</a>
-        <a href="#engagement">Engagement</a>
-        <a href="#gpu">Ecosystème</a>
+        <a href="#offre">Our Offers</a>
+        <a href="#engagement">Commitment</a>
+        <a href="#gpu">Ecosystem</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <!-- Bouton hamburger mobile -->
+      <!-- Mobile hamburger button -->
       <button
         class="hamburger"
         :class="{ open: isOpen }"
@@ -31,27 +31,27 @@
       </button>
     </div>
 
-    <!-- Menu mobile -->
+    <!-- Mobile menu -->
     <transition name="fade">
       <div v-if="isOpen" class="mobile-menu" @click.self="closeMenu">
-        <a href="#offre" @click="closeMenu">Nos offres</a>
-        <a href="#engagement" @click="closeMenu">Engagement</a>
-        <a href="#gpu" @click="closeMenu">Ecosystème</a>
+        <a href="#offre" @click="closeMenu">Our Offers</a>
+        <a href="#engagement" @click="closeMenu">Commitment</a>
+        <a href="#gpu" @click="closeMenu">Ecosystem</a>
         <a href="#contact" @click="closeMenu">Contact</a>
       </div>
     </transition>
 
-    <!-- Contenu principal -->
+    <!-- Main content -->
     <div class="header-content">
-      <h1 style="color: #b173ff;">Panda paulownia</h1>
+      <h1 style="color: #b173ff;">Panda Paulownia</h1>
       <p>
-        Investis en nature et en innovation : paye en crypto pour faire pousser ton
-        <strong>paulownia</strong>, un arbre unique qui te génère une
-        <strong>rente à chaque vente</strong>.<br />
-        Durable. Rentable. Alimenté par la blockchain.
+        Invest in nature and innovation — pay in crypto to grow your own
+        <strong>Paulownia tree</strong>, a unique species that provides you with
+        a <strong>crypto income every time it’s sold</strong>.<br />
+        Sustainable. Profitable. Powered by blockchain.
       </p>
       <a href="https://coinmarketcap.com/" class="cta-btn" style="font-size: xx-large;">
-        Accédez à notre crypto PPA 💎
+        Access our PPA crypto 💎
       </a>
     </div>
   </header>

@@ -1,31 +1,31 @@
 <template>
   <footer class="footer">
-    <!-- Liens de gauche -->
+    <!-- Left links -->
     <div class="footer-links left">
-      <a href="#offre">Nos offres</a>
-      <a href="#engagement">Engagement</a>
-      <a href="#gpu">Ecosystème</a>
-      
+      <a href="#offre">Our Offers</a>
+      <a href="#engagement">Commitment</a>
+      <a href="#gpu">Ecosystem</a>
     </div>
 
-    <!-- Centre -->
+    <!-- Center -->
     <div class="footer-center">
-      <img src="/public/assets/logoPanda.png" alt="Panda paulownia" class="footer-logo" />
-      <h2>Panda paulownia</h2>
+      <img src="/public/assets/logoPanda.png" alt="Panda Paulownia" class="footer-logo" />
+      <h2>Panda Paulownia</h2>
       <p>
-        Investis en nature et en innovation 🌿<br />
-        Minage durable, alimenté par la blockchain et la crypto.
+        Invest in nature and innovation 🌿<br />
+        Sustainable mining powered by blockchain and crypto.
       </p>
-      <p class="copyright">© 2025 Panda paulownia — Tous droits réservés</p>
+      <p class="copyright">© 2025 Panda Paulownia — All rights reserved</p>
     </div>
 
-    <!-- Liens de droite -->
+    <!-- Right links -->
     <div class="footer-links right">
       <a href="#contact">Contact</a>
-      <a href="#mentions">Mentions légales</a>
+      <a href="#mentions">Legal Notice</a>
     </div>
   </footer>
 </template>
+
 
 <script setup>
 </script>
