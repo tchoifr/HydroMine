@@ -5,6 +5,7 @@
       <a href="#offre">Nos offres</a>
       <a href="#engagement">Engagement</a>
       <a href="#gpu">Ecosystème</a>
+      
     </div>
 
     <!-- Centre -->

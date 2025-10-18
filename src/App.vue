@@ -8,9 +8,9 @@ import Footer from './components/Footer.vue';
 import '../src/style.css';
 
 // 🖼️ Import des images depuis src/assets
-import panda1 from '/public/assets/1an.png';
-import panda2 from '/public/assets/2ans.png';
-import panda3 from '/public/assets/3ans.png';
+import panda1 from '/public/assets/1.png';
+import panda2 from '/public/assets/2.png';
+import panda3 from '/public/assets/3.png';
 
 
 import NVIDIARTX3060Ti from '/public/assets/NVIDIARTX3060Ti.webp';
@@ -58,7 +58,7 @@ const gpus = [
     name: "Staking bloqué",
     image: "/public/assets/2.png",
     description:
-      "Verrouille tes PALMONIA pour 3, 6 ou 12 mois et bénéficie de taux bonifiés. Plus tu t’engages, plus ton rendement augmente.",
+      "Verrouille tes PALMONIA pour 1, 2 ou 3 ans et bénéficie de taux bonifiés. Plus tu t’engages, plus ton rendement augmente.",
     apr: "jusqu’à 18% / an",
     badge: "Performance",
   },
