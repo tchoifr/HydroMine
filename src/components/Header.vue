@@ -234,7 +234,7 @@ onBeforeUnmount(() => window.removeEventListener("resize", onResize));
   color: white;
   text-decoration: none;
   padding: 12px 24px;
-  border-radius: 8px;
+  border-radius: 25px;
   font-weight: bold;
   transition: background 0.25s ease;
 }
