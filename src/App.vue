@@ -37,10 +37,16 @@ const cards = [
 ];
 
 // ⚙️ GPU / ecosystem data
+import img1 from "/public/assets/1.png";
+import img2 from "/public/assets/2.png";
+import img3 from "/public/assets/3.png";
+import img4 from "/public/assets/4.png";
+import img5 from "/public/assets/5.png";
+
 const gpus = [
   {
     name: "Flexible Staking",
-    image: "/public/assets/1.png",
+    image: img1,
     description:
       "Enjoy flexible staking — deposit or withdraw your Paulownia tokens anytime. Your assets continue generating rewards even during network rest periods.",
     apr: "8 to 12% / year",
@@ -48,7 +54,7 @@ const gpus = [
   },
   {
     name: "Locked Staking",
-    image: "/public/assets/2.png",
+    image: img2,
     description:
       "Lock your Paulownia tokens for 1, 2, or 3 years and benefit from boosted rates. The longer your commitment, the higher your returns.",
     apr: "up to 18% / year",
@@ -56,7 +62,7 @@ const gpus = [
   },
   {
     name: "Community Staking",
-    image: "/public/assets/3.png",
+    image: img3,
     description:
       "Join collective staking — every member strengthens the Paulownia pool. Together, we multiply the network’s value and stability.",
     apr: "varies by pool",
@@ -64,7 +70,7 @@ const gpus = [
   },
   {
     name: "Reinvested Revenues",
-    image: "/public/assets/4.png",
+    image: img4,
     description:
       "100% of our revenue is reinvested into the Paulownia crypto. No external dividends — all value stays within the ecosystem.",
     impact: "Organic & sustainable growth",
@@ -72,7 +78,7 @@ const gpus = [
   },
   {
     name: "Our Paulownia NFTs",
-    image: "/public/assets/5.png",
+    image: img5,
     description:
       "Each Paulownia NFT represents a living tree on the blockchain 🌿. It generates crypto income and evolves over time.",
     type: "Utility & evolving NFTs",
